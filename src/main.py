@@ -1,11 +1,11 @@
 # main.py
 import asyncio
 import logging
-from src.bot_config import bot, dp
-from src.database import conn, cursor
-from src.utils import resume_tasks
-from src.handlers import admin, channels, intervals, start_stop
-from src.globals import tasks, previous_prices, last_action_time, last_contract_change_time
+from bot_config import bot, dp
+from database import conn, cursor
+from utils import resume_tasks
+from handlers import admin, channels, intervals, start_stop
+from globals import tasks, previous_prices, last_action_time, last_contract_change_time
 
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
