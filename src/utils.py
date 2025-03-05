@@ -3,10 +3,10 @@ import aiohttp
 import logging
 import asyncio
 from time import time
-from src.bot_config import config, bot
-from src.messages import get_user_language, TEXTS
-from src.globals import tasks, previous_prices, last_action_time, last_contract_change_time
-from src.database import cursor
+from bot_config import config, bot
+from messages import get_user_language, TEXTS
+from globals import tasks, previous_prices, last_action_time, last_contract_change_time
+from database import cursor
 
 logger = logging.getLogger(__name__)
 
