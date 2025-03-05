@@ -1,9 +1,9 @@
 # intervals.py
 from aiogram import types
-from src.bot_config import dp
-from src.database import cursor, conn
-from src.keyboards import get_main_menu, get_interval_keyboard
-from src.messages import get_user_language, TEXTS
+from bot_config import dp
+from database import cursor, conn
+from keyboards import get_main_menu, get_interval_keyboard
+from messages import get_user_language, TEXTS
 
 @dp.callback_query(lambda c: c.data == "set_interval")
 async def process_set_interval(callback: types.CallbackQuery):
