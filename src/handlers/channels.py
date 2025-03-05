@@ -1,13 +1,13 @@
 # channels.py
 from aiogram import types
 from aiogram.fsm.context import FSMContext
-from src.bot_config import bot, dp
-from src.database import cursor, conn
-from src.states import ChannelSetup
-from src.keyboards import get_main_menu, get_channel_menu, get_back_keyboard
-from src.messages import get_user_language, TEXTS
-from src.utils import can_perform_action
-from src.globals import last_contract_change_time
+from bot_config import bot, dp
+from database import cursor, conn
+from states import ChannelSetup
+from keyboards import get_main_menu, get_channel_menu, get_back_keyboard
+from messages import get_user_language, TEXTS
+from utils import can_perform_action
+from globals import last_contract_change_time
 
 @dp.message(lambda message: message.text == "/start")
 async def send_menu(message: types.Message, state: FSMContext):
