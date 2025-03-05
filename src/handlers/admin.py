@@ -1,7 +1,7 @@
 # admin.py
 from aiogram import types
-from src.bot_config import bot, dp, config
-from src.database import cursor, conn
+from bot_config import bot, dp, config
+from database import cursor, conn
 
 def is_admin(user_id):
     return str(user_id) == config['Settings']['admin_id']
