@@ -2,7 +2,7 @@
 import sqlite3
 import logging
 import os
-from src.bot_config import config, CONFIG_DIR
+from bot_config import config, CONFIG_DIR
 
 logger = logging.getLogger(__name__)
 
