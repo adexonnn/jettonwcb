@@ -1,7 +1,7 @@
 # keyboards.py
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from src.messages import get_user_language, TEXTS
-from src.database import cursor
+from messages import get_user_language, TEXTS
+from database import cursor
 
 def get_main_menu(user_id):
     lang = get_user_language(user_id)
