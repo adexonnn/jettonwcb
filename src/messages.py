@@ -1,5 +1,5 @@
 # messages.py
-from src.bot_config import config
+from bot_config import config
 
 TEXTS = {
     'ru': {
