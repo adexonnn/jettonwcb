@@ -1,11 +1,11 @@
 # start_stop.py
 from aiogram import types
-from src.bot_config import dp, bot
-from src.database import cursor, conn
-from src.keyboards import get_main_menu, get_channel_menu
-from src.messages import get_user_language, TEXTS
-from src.utils import can_perform_action, send_message_loop
-from src.globals import tasks, last_action_time, previous_prices
+from bot_config import dp, bot
+from database import cursor, conn
+from keyboards import get_main_menu, get_channel_menu
+from messages import get_user_language, TEXTS
+from utils import can_perform_action, send_message_loop
+from globals import tasks, last_action_time, previous_prices
 from time import time
 from aiogram.exceptions import TelegramBadRequest
 
