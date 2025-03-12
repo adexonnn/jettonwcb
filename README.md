@@ -17,3 +17,6 @@ Bot for creating your own token price tracking channels, fully translated into R
    ```bash
    git clone https://github.com/adexonnn/jettonwcb.git
    cd jettonwcb
+
+### Donations
+```UQAjgdYvN8Ry8kVYbV_vEXv0DUABum_OyOFpHMv2VPghtpKs```
